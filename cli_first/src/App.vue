@@ -3,6 +3,7 @@
     
     <FirstTitle/>
     <HeroImg/>
+    <SecondComponents/>
 
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import FirstTitle from './components/FirstTitle.vue';
 import HeroImg from './components/HeroImg.vue';
+import SecondComponents from './components/SecondComponents.vue';
 
 export default {
   name: 'App',
   components: {
     FirstTitle,
-    HeroImg
+    HeroImg,
+    SecondComponents
   }
 }
 </script>
